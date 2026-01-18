@@ -1,11 +1,12 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 
+import LandingPage from  './pages/LandingPage';
+
 function App() {
     return (
         <>
-            <h1 className="text-xl font-bold">💖 Hello World!</h1>
-            <p>Welcome to your Electron + Vite + React application.</p>
+            <LandingPage />
         </>
     );
 }
